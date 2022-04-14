@@ -32,8 +32,8 @@ namespace TennisRanklist
                 }
             }
 
-            Console.WriteLine($"Final poins: {points}");
-            Console.WriteLine($"Average points: {Math.Floor(pointsFromTournaments / tournamets):F2}");
+            Console.WriteLine($"Final points: {points + pointsFromTournaments}");
+            Console.WriteLine($"Average points: {Math.Floor(pointsFromTournaments / tournamets)}");
             Console.WriteLine($"{(wonTournaments / tournamets) * 100:F2}%");
         }
     }
